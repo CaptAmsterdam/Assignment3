@@ -1,0 +1,328 @@
+body {
+    max-width: 1440px; 
+    height: 1170px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+
+
+}
+
+.wp {
+    width: 200px;
+    height: 39px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 892px;
+    height: 795px;
+    margin-top: 105px;
+    margin-left: 262px;
+}
+
+.checkout {
+    width: 580px;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    
+}
+
+.first_name, .last_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail, .name, .card_details, .payinfo, .basicinfo, .check, .card_details, .submit, .help, .stripe {
+    gap: 20px;
+}
+.check {
+    width: 161px;
+    height: 54px;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: hsla(211, 35%, 17%, 1);
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#text {
+    color: hsla(211, 35%, 17%, 1);
+    font-size: 14px;
+    font-family: Lato Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.10px;
+    line-height: 16.8px;
+}
+
+.basicinfo {
+    width: 220px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.16px;
+}
+ 
+.first_box, .last_box {
+    width: 145px;
+    height: 25px;
+    background-color:  hsla(216, 16%, 94%, 0.5);
+    border: 1px solid hsla(216, 16%, 94%, 0.5);
+}
+.mail_box {
+    width: 300px;
+    height: 25px;
+    background-color:  hsla(216, 16%, 94%, 0.5);
+    border: 1px solid hsla(216, 16%, 94%, 0.5);
+}
+
+.client_check, .repo_check, .mail_check1 {
+    width: 20px;
+    height: 20px;
+}
+
+.payinfo {
+    width: 150px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.16px;
+    white-space: nowrap;
+}
+
+.card_details {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 20px;
+}
+
+.card_box {
+    width: 350px;
+    height: 25px;
+    background-color:  hsla(216, 16%, 94%, 0.5);
+    border: 1px solid hsla(216, 16%, 94%, 0.5);
+}
+
+.submit {
+    width: 350px;
+    height: 35px;
+    background-color: #038e7d;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Lato;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -o.396px;
+    box-shadow: none;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.help {
+    width: 303px;
+    height: 16px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.01px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.stripe_image {
+    margin-top:40px;
+    margin-left: 150px;
+}
+
+.side_details {
+    background-color: #1179bf;
+}
+
+.side_heading {
+    color: #fff;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+    margin-left: 46px;
+    margin-top: 30px;
+}
+.side_price {
+    color: #fff;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.015px;
+    margin-left: 46px;
+}
+ sup {
+    font-size: 24px;
+ }
+
+ sub {
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+ .renewal {
+    color: #fff;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 15px;
+    letter-spacing: -0.008px;
+    margin-left: 46px;
+    margin-top: 10px;
+ }
+
+ .features{
+    display: flex;
+    flex-direction: column;
+    margin-left: 46px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.008px;
+    color: #fff;
+    margin-top: 15px;
+ }
+
+ .mail1 {
+    display: flex;
+    flex-direction: row;
+    
+ }
+ 
+ .client_check, .repo_check, .mail_check1 {
+    width: 20px;
+    height: 20px;
+    fill: #b9f5ff;
+ }
+
+ .agency {
+    color: #fff;
+    margin-left: 46px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.008px;
+    margin-top: 30px;
+ }
+
+ em {
+    font-style: normal;
+    font-weight: 700;
+ }
+
+ i {
+    font-weight: 700;
+ }
+
+ .ftp {
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.009px;
+    margin-left:46px ;
+    margin-top: 40px;
+    width: 227px;
+    height: 96px;
+ }
+
+ .kirk {
+    display: flex;
+    flex-direction: row;
+    margin-left:24px;
+    margin-top: -5px;
+ }
+
+ .kirkbeard {
+    color: #fff;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.008px;
+    margin-left: 10px;
+ }
+
+ .side_details {
+    width: 312px;
+    height: 600px;
+    margin-right: 200px;
+ }
+ 
+
+ .line1 {
+    margin-top: 15px;
+    height: 0.2px;
+    background-color: #f5f7fa;
+ }
+ 
+ .line2 {
+    margin-top: 30px;
+    height: 0.2px;
+    background-color: #f5f7fa;
+ }
+
+ .line3 {
+    width: 224px;
+    height: 1px;
+    opacity: 0.2005;
+    background-color: #fff;
+ }
+
+ .top_right {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 800px;
+    word-break: keep-all;
+    margin-top: 30px;
+ }
+ .learn {
+    overflow-wrap: normal;
+ }
